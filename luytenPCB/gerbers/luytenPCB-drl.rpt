@@ -1,0 +1,29 @@
+Drill report for luytenPCB.kicad_pcb
+Created on 2/2/2024 1:32:07 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'luytenPCB-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (38 holes)
+    T2  0.800mm  0.0315"  (2 holes)
+    T3  1.000mm  0.0394"  (3 holes)
+    T4  1.016mm  0.0400"  (30 holes)
+    T5  1.400mm  0.0551"  (22 holes)
+    T6  2.700mm  0.1063"  (2 holes)
+
+    Total plated holes count 97
+
+
+Drill file 'luytenPCB-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.800mm  0.0709"  (4 holes)
+    T2  2.200mm  0.0866"  (4 holes)
+
+    Total unplated holes count 8
