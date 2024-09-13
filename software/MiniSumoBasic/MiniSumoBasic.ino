@@ -4,24 +4,25 @@
 //--------PARAMETERS---------------
 #define LINETHRESHOLD 100 //threshold for line sensor analog read
 //--------PIN DEFINITIONS----------
-#define STARTMODULEPIN 13
+#define STARTMODULEPIN 10
 
-#define LEFTLINEPIN    20
-#define RIGHTLINEPIN   21
+#define LEFTLINEPIN    26
+#define RIGHTLINEPIN   20
 
-#define LEFTMOTORPIN1  23
-#define LEFTMOTORPIN2  22
-#define RIGHTMOTORPIN1 18
-#define RIGHTMOTORPIN2 19
+#define LEFTMOTORPIN1  8
+#define LEFTMOTORPIN2  9
+#define RIGHTMOTORPIN1 12
+#define RIGHTMOTORPIN2 13
 
-#define DISTSENSORL    38
-#define DISTSENSORLM   40
-#define DISTSENSORRM   11
-#define DISTSENSORR    9
+#define DISTSENSORL    25
+#define DISTSENSORLM   24
+#define DISTSENSORC    23
+#define DISTSENSORRM   22
+#define DISTSENSORR    21
 
-#define DIPSWITCH1     24
-#define DIPSWITCH2     25
-#define DIPSWITCH3     26
+#define DIPSWITCH1     5
+#define DIPSWITCH2     6
+#define DIPSWITCH3     7
 
 //declare vars, included def for readability
 int startModule  = digitalRead(STARTMODULEPIN);
@@ -29,6 +30,7 @@ int leftLine     = analogRead(LEFTLINEPIN);
 int rightLine    = analogRead(RIGHTLINEPIN);
 int distSensorL  = digitalRead(DISTSENSORL);
 int distSensorLM = digitalRead(DISTSENSORLM);
+int distSensorC  = digitalRead(DISTSENSORC);
 int distSensorRM = digitalRead(DISTSENSORRM);
 int distSensorR  = digitalRead(DISTSENSORR);
 int progSelect   = digitalRead(DIPSWITCH3) << 2 | (digitalRead(DIPSWITCH2) << 1 | digitalRead(DIPSWITCH1));
@@ -48,6 +50,7 @@ void setup() {
     //initialize distance sensors
     pinMode(DISTSENSORR, INPUT);
     pinMode(DISTSENSORRM, INPUT);
+    pinMode(DISTSENSORC, INPUT);
     pinMode(DISTSENSORLM, INPUT);
     pinMode(DISTSENSORL, INPUT);
 
@@ -131,6 +134,7 @@ void loop() {
      progSelect   = digitalRead(DIPSWITCH3) << 2 | (digitalRead(DIPSWITCH2) << 1 | digitalRead(DIPSWITCH1));
      distSensorL  = digitalRead(DISTSENSORL);
      distSensorLM = digitalRead(DISTSENSORLM);
+     distSensorC  = digitalRead(DISTSENSORC);
      distSensorRM = digitalRead(DISTSENSORRM);
      distSensorR  = digitalRead(DISTSENSORR);
 
@@ -169,7 +173,12 @@ void loop() {
           
     }
     */
-    if (startModule){
+    //if (startModule){
+        analogWrite(13, 120);
+        analogWrite(12, 0);
+        analogWrite(9, 120);
+        analogWrite(8, 0);
+      /*
               if (distSensorLM) {
                   forward();
               }
@@ -194,13 +203,38 @@ void loop() {
                   leftTurn();
                   delay(200);
               }
-    }
-    else if (!startModule){
-      stopMoving();
+      */
+    //}
+    //else if (!startModule){
+    //  stopMoving();
       //debugging
       //Serial.println(progSelect);
       //debugDistSensor(distSensorR);
       //debugLineSensor();
-    }
+    //}
     //don't care
 }
+
+/*
+#include <Arduino.h>
+
+#define D5 5
+#define D6 6
+#define D9 9
+#define D10 10
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(D5, OUTPUT);
+  pinMode(D6, OUTPUT);
+  pinMode(D9, OUTPUT);
+  pinMode(D10, OUTPUT);
+}
+
+void loop() {
+  analogWrite(D5, 128);
+  analogWrite(D6, 255);
+  analogWrite(D9, 128);
+  analogWrite(D10, 255);
+}*/
