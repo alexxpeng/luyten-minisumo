@@ -681,312 +681,252 @@
 				)
 			)
 		)
-		(symbol "DRV8871DDAR:DRV8871DDAR"
+		(symbol "DRV8212DRLR:DRV8212DRLR"
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 16.24 0)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "DRV8871DDAR"
-				(at -12.7 -19.24 0)
+			(property "Value" "DRV8212DRLR"
+				(at 24.13 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "DRV8871DDAR:VREG_LM5017MR_NOPB"
-				(at 0 0 0)
+			(property "Footprint" "SOTFL50P160X60-6N"
+				(at 24.13 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8212.pdf?ts=1631761675954&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDRV8212DRLR%2526keyMatch%253DDRV8212DRLR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
+				(at 24.13 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "\n50-V, 3.6-A H-bridge motor driver with integrated current sensing\n"
-				(at 0 0 0)
+			(property "Description" "Motor / Motion / Ignition Controllers & Drivers 12-V, 2-A Low voltage H-bridge motor driver"
+				(at 24.13 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
+			(property "Height" "0.6"
+				(at 24.13 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Package" "HSOIC-8 Texas Instruments"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "DRV8212DRLR"
+				(at 24.13 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8871DDAR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
+			(property "Mouser Part Number" "595-DRV8212DRLR"
+				(at 24.13 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "MP" "DRV8871DDAR"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8212DRLR?qs=7D1LtPJG0i3wtDTC%2FUQdKg%3D%3D"
+				(at 24.13 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=492651&manufacturer=Texas Instruments&part_name=DRV8871DDAR&search_term=None"
-				(at 0 0 0)
+			(property "Arrow Part Number" ""
+				(at 24.13 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
+			(property "Arrow Price/Stock" ""
+				(at 24.13 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/DRV8871DDAR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "DRV8871DDAR_0_0"
-				(rectangle
-					(start -12.7 -15.24)
-					(end 12.7 15.24)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -10.16 180)
+			(symbol "DRV8212DRLR_0_0"
+				(pin passive line
+					(at 0 0 0)
 					(length 5.08)
-					(name "GND"
+					(name "IN1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 0 0)
+				(pin passive line
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "IN2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 2.54 0)
+				(pin passive line
+					(at 0 -5.08 0)
 					(length 5.08)
-					(name "IN1"
+					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 5.08 0)
+				(pin passive line
+					(at 27.94 0 180)
 					(length 5.08)
-					(name "ILIM"
+					(name "OUT2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 12.7 180)
+				(pin passive line
+					(at 27.94 -2.54 180)
 					(length 5.08)
 					(name "VM"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 5.08 180)
+				(pin passive line
+					(at 27.94 -5.08 180)
 					(length 5.08)
 					(name "OUT1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			)
+			(symbol "DRV8212DRLR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(stroke
+						(width 0.1524)
+						(type default)
 					)
-				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "OUT2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3308,22 +3248,16 @@
 		(uuid "31b5ba46-96f2-4a10-b7e6-826e7b0bc000")
 	)
 	(junction
-		(at 335.28 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40406e95-fcdb-4212-acec-8a10d183f3da")
-	)
-	(junction
 		(at 63.5 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43eb5a06-f4bf-4be0-98d1-2ed42c1b4215")
 	)
 	(junction
-		(at 318.77 113.03)
+		(at 335.28 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48fd10fc-5263-4d46-8507-8c9760e18cc4")
+		(uuid "500859d5-dc35-4ea4-b10f-75dd739622e7")
 	)
 	(junction
 		(at 22.86 35.56)
@@ -3338,34 +3272,10 @@
 		(uuid "5348e2ea-bf73-40c1-901e-d24c8ff5a5d9")
 	)
 	(junction
-		(at 335.28 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56962db5-6a0c-46d3-9832-098f58249942")
-	)
-	(junction
-		(at 318.77 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5800eb7b-8f52-470d-90cb-f61b9522f422")
-	)
-	(junction
-		(at 318.77 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66220b19-5f1d-4372-a052-911aab6f1f4c")
-	)
-	(junction
 		(at 30.48 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "674ba699-4650-4c78-8680-18795cb0d30e")
-	)
-	(junction
-		(at 318.77 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ec0a295-274c-409d-baf2-f99bf429ba1e")
 	)
 	(junction
 		(at 162.56 96.52)
@@ -3380,28 +3290,10 @@
 		(uuid "97a655f5-2187-4252-8834-4b919faf88d8")
 	)
 	(junction
-		(at 335.28 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eea4bd0-92ae-4f12-b5e4-fde5521322a3")
-	)
-	(junction
 		(at 73.66 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a684e0f0-e393-4eff-8d2b-e1c4baa0511a")
-	)
-	(junction
-		(at 318.77 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "affd501d-ffd9-4c19-a1a7-72b4a3e2c993")
-	)
-	(junction
-		(at 318.77 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5645821-1a18-456e-83d0-7b725af460a3")
 	)
 	(junction
 		(at 30.48 156.21)
@@ -3416,10 +3308,10 @@
 		(uuid "efaac1f3-9ce3-4fc3-bd51-a889ef4d6e49")
 	)
 	(junction
-		(at 335.28 154.94)
+		(at 335.28 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6e3e7a1-a8ad-4a6a-8e48-c224f0b95782")
+		(uuid "f3a875bd-7686-44dc-88cf-6d5999e6ea13")
 	)
 	(junction
 		(at 63.5 46.99)
@@ -3464,6 +3356,10 @@
 		(uuid "d511480e-2fb8-42b6-9147-ec2a6c52a29d")
 	)
 	(no_connect
+		(at 175.26 86.36)
+		(uuid "da175399-e264-4d18-b3c0-f888f5fb0302")
+	)
+	(no_connect
 		(at 175.26 53.34)
 		(uuid "f9cc302f-bd59-4c0f-9887-fe9d34b09133")
 	)
@@ -3476,16 +3372,6 @@
 			(type default)
 		)
 		(uuid "0095f8a7-0d4e-4eca-9669-18a300ab7615")
-	)
-	(wire
-		(pts
-			(xy 375.92 111.76) (xy 375.92 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0405a08a-5197-41aa-b214-5f0fbea3c5a5")
 	)
 	(wire
 		(pts
@@ -3509,13 +3395,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 83.82) (xy 180.34 83.82)
+			(xy 332.105 134.62) (xy 323.215 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0680619b-262c-4d00-9776-931dd814fa80")
+		(uuid "05c33cf3-40a5-4fdf-92b2-65f333eba7bd")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 182.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c3f928-8d3e-469b-a46d-359b8d6f294d")
 	)
 	(wire
 		(pts
@@ -3639,33 +3535,33 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 162.56) (xy 308.61 160.02)
+			(xy 332.74 100.33) (xy 332.74 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cbc31e9-585c-4ad7-8da8-557c24da5071")
+		(uuid "1b95b51d-373a-4af8-85d0-5f1ca1360a47")
 	)
 	(wire
 		(pts
-			(xy 375.92 149.86) (xy 375.92 151.13)
+			(xy 337.82 134.62) (xy 335.28 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ecea48c-c17b-4137-995c-e3904d919595")
+		(uuid "1ba1dc7b-8a89-45aa-895c-465b8c3c9914")
 	)
 	(wire
 		(pts
-			(xy 335.28 87.63) (xy 335.28 90.17)
+			(xy 337.82 137.16) (xy 332.105 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f60cd41-9a84-415c-a63d-3d615b03751b")
+		(uuid "210a5b61-053d-4b7d-9d2c-6ef96169cf0a")
 	)
 	(wire
 		(pts
@@ -3689,13 +3585,23 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 154.94) (xy 335.28 161.29)
+			(xy 335.28 100.33) (xy 335.28 104.775)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25866161-dc52-4bb7-b239-231b46fa40f9")
+		(uuid "24794bbd-a9c8-487c-8c9d-557a5144ddcf")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25759107-8c5b-4fe6-b9c0-cad5141c152e")
 	)
 	(wire
 		(pts
@@ -3759,43 +3665,23 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 171.45) (xy 318.77 168.91)
+			(xy 175.26 81.28) (xy 182.88 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e334b51-e988-4a75-8d5c-868d7768b8c5")
+		(uuid "2f68945a-e593-4b06-9742-ed9920426e8e")
 	)
 	(wire
 		(pts
-			(xy 308.61 120.65) (xy 308.61 121.92)
+			(xy 369.57 97.79) (xy 369.57 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "302ca5b4-f228-4610-91e4-b3d8b23b6980")
-	)
-	(wire
-		(pts
-			(xy 318.77 100.33) (xy 318.77 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305e540f-8b82-467d-93cf-6239f5be9f86")
-	)
-	(wire
-		(pts
-			(xy 175.26 81.28) (xy 180.34 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31fdc67f-4eaf-414a-b72c-1e47cb0133b8")
+		(uuid "2f8ad4cc-d1e1-4f61-adb5-46793bfbad9a")
 	)
 	(wire
 		(pts
@@ -3839,6 +3725,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 127) (xy 335.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357d70cf-3aa2-4620-a285-ddf2472f5bc8")
+	)
+	(wire
+		(pts
 			(xy 146.05 71.12) (xy 149.86 71.12)
 		)
 		(stroke
@@ -3859,6 +3755,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 95.25) (xy 335.28 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f7fe72-7657-42cc-a410-5b904eab3ba6")
+	)
+	(wire
+		(pts
 			(xy 162.56 96.52) (xy 162.56 99.06)
 		)
 		(stroke
@@ -3869,23 +3775,13 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 168.91) (xy 318.77 167.64)
+			(xy 335.28 100.33) (xy 337.82 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41c5f0a2-aa15-4b12-add1-108b59c7c4cd")
-	)
-	(wire
-		(pts
-			(xy 373.38 102.87) (xy 375.92 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44b479f7-ac06-44dd-8f3d-7c4f0e1ebfd3")
+		(uuid "46035bc0-8929-4147-95ae-2431ee8228e6")
 	)
 	(wire
 		(pts
@@ -3899,16 +3795,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 124.46) (xy 318.77 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bb49956-a654-4e29-b9ef-dcd5508d3765")
-	)
-	(wire
-		(pts
 			(xy 30.48 156.21) (xy 30.48 158.75)
 		)
 		(stroke
@@ -3916,26 +3802,6 @@
 			(type default)
 		)
 		(uuid "4f18db94-b734-4047-bcb4-87cf0b2438c1")
-	)
-	(wire
-		(pts
-			(xy 308.61 168.91) (xy 318.77 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5016ee64-8271-42bd-9d85-7afd1ed3eda7")
-	)
-	(wire
-		(pts
-			(xy 335.28 137.16) (xy 335.28 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51b63731-6c4a-4cf7-9ad3-039440b3216f")
 	)
 	(wire
 		(pts
@@ -3949,26 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 149.86) (xy 337.82 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "535dd5c4-03c6-4b10-b764-7994c164b8d3")
-	)
-	(wire
-		(pts
-			(xy 373.38 144.78) (xy 378.46 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "547f4911-9852-4d95-97fe-6f3b85a470f2")
-	)
-	(wire
-		(pts
 			(xy 146.05 60.96) (xy 149.86 60.96)
 		)
 		(stroke
@@ -3976,6 +3822,16 @@
 			(type default)
 		)
 		(uuid "54d81a64-65c1-4e7c-b2e0-b3c484c6d628")
+	)
+	(wire
+		(pts
+			(xy 335.28 134.62) (xy 335.28 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551e7275-6838-4cae-8fa3-a19112503d69")
 	)
 	(wire
 		(pts
@@ -4009,16 +3865,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 110.49) (xy 322.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d548604-3689-475b-93ef-ca9759ca8704")
-	)
-	(wire
-		(pts
 			(xy 146.05 78.74) (xy 149.86 78.74)
 		)
 		(stroke
@@ -4026,16 +3872,6 @@
 			(type default)
 		)
 		(uuid "60f8cbf0-eb94-47fe-ad69-82d59303f612")
-	)
-	(wire
-		(pts
-			(xy 318.77 160.02) (xy 318.77 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61288b8d-96a7-43b6-bc45-8c4f7f18067d")
 	)
 	(wire
 		(pts
@@ -4089,6 +3925,26 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 134.62) (xy 371.475 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2ca946-e07d-431b-925e-5fe27e072dd0")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abb8cbb-9f3b-4b67-a3b5-43f1205e59f5")
+	)
+	(wire
+		(pts
 			(xy 24.13 73.66) (xy 22.86 73.66)
 		)
 		(stroke
@@ -4099,16 +3955,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 97.79) (xy 378.46 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d3a694b-4e04-4e04-a3d2-f8faba26e7a9")
-	)
-	(wire
-		(pts
 			(xy 267.335 39.37) (xy 264.795 39.37)
 		)
 		(stroke
@@ -4116,6 +3962,16 @@
 			(type default)
 		)
 		(uuid "6d7e4808-1f45-4451-849d-633662b45e0c")
+	)
+	(wire
+		(pts
+			(xy 365.76 137.16) (xy 371.475 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e346546-de89-419e-b160-5b9ea98fb417")
 	)
 	(wire
 		(pts
@@ -4149,43 +4005,13 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 157.48) (xy 330.2 157.48)
+			(xy 175.26 68.58) (xy 182.88 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "734119f3-c8ca-4bca-b819-321cc1eaf040")
-	)
-	(wire
-		(pts
-			(xy 335.28 107.95) (xy 335.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73d78ee6-e15f-4fc6-85c7-df546d6b9ed2")
-	)
-	(wire
-		(pts
-			(xy 175.26 86.36) (xy 180.34 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d5d907-eb98-4e60-8483-a708dbe43f69")
-	)
-	(wire
-		(pts
-			(xy 335.28 90.17) (xy 335.28 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75624e57-ce13-4261-bd62-cfd1dbd4d43a")
+		(uuid "72809162-f7db-4678-a056-926986c1192f")
 	)
 	(wire
 		(pts
@@ -4199,13 +4025,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 115.57) (xy 308.61 113.03)
+			(xy 335.28 100.33) (xy 332.74 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "791a9782-2c0c-4acb-93d3-6eb8d971b81e")
+		(uuid "7754ab93-d4e1-4ccd-8e7e-f86abdff2983")
 	)
 	(wire
 		(pts
@@ -4229,43 +4055,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 180.34 76.2)
+			(xy 322.58 97.79) (xy 337.82 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c64c5f7-0bec-444a-985b-f12a1a985638")
-	)
-	(wire
-		(pts
-			(xy 337.82 134.62) (xy 335.28 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e0c611a-4721-48ca-96af-6776ad60ef6f")
-	)
-	(wire
-		(pts
-			(xy 318.77 121.92) (xy 318.77 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "818c9f8c-6ecb-4c04-b626-825d24006cff")
-	)
-	(wire
-		(pts
-			(xy 308.61 167.64) (xy 308.61 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8191fc46-1f8c-4ef4-b4f8-1e01a3d7fb2e")
+		(uuid "7f1eb0aa-f09b-4edb-89e8-dcdc92714aa8")
 	)
 	(wire
 		(pts
@@ -4289,43 +4085,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 180.34 71.12)
+			(xy 322.58 100.33) (xy 331.47 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a4a29c6-7a69-4b01-8831-8ce6d764c998")
-	)
-	(wire
-		(pts
-			(xy 373.38 147.32) (xy 378.46 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4e83f9-aec7-45fd-bf15-8cb7e125093e")
-	)
-	(wire
-		(pts
-			(xy 375.92 102.87) (xy 375.92 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c9c4060-d247-427c-a81e-0a8750b0f3f4")
-	)
-	(wire
-		(pts
-			(xy 335.28 90.17) (xy 337.82 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6bb298-5efe-4377-aac2-b7f75c4a8681")
+		(uuid "8b2e6039-d479-4e5b-bb81-59f015c74ba0")
 	)
 	(wire
 		(pts
@@ -4369,16 +4135,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 110.49) (xy 337.82 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f62eb21-57a8-4332-995e-167305ba4585")
-	)
-	(wire
-		(pts
 			(xy 267.335 86.36) (xy 264.795 86.36)
 		)
 		(stroke
@@ -4396,6 +4152,16 @@
 			(type default)
 		)
 		(uuid "9089cf55-c076-461b-8bc6-2d565ca206e0")
+	)
+	(wire
+		(pts
+			(xy 369.57 140.97) (xy 369.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92aa6e0b-4042-4e9c-b35f-9e8049b3b07c")
 	)
 	(wire
 		(pts
@@ -4429,13 +4195,13 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 149.86) (xy 375.92 149.86)
+			(xy 332.105 137.16) (xy 332.105 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "977e93c7-ce08-4fb3-9af4-91db0ffb1b3e")
+		(uuid "97a74af3-e6e0-4a3c-a011-25e55c14a790")
 	)
 	(wire
 		(pts
@@ -4449,13 +4215,13 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 154.94) (xy 337.82 154.94)
+			(xy 365.76 100.33) (xy 371.475 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c1fe167-b647-4e33-922a-802a73401f04")
+		(uuid "9d6c7a3b-2186-4ab9-9963-b9c05158e070")
 	)
 	(wire
 		(pts
@@ -4466,16 +4232,6 @@
 			(type default)
 		)
 		(uuid "a21e2b92-52ce-46cb-ba57-09573744ad4e")
-	)
-	(wire
-		(pts
-			(xy 318.77 110.49) (xy 318.77 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3dff387-1bf1-4c99-9063-800b57409b43")
 	)
 	(wire
 		(pts
@@ -4509,13 +4265,13 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 158.75) (xy 375.92 161.29)
+			(xy 331.47 102.87) (xy 337.82 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab1919ea-d3ee-4368-b30b-e393108bd582")
+		(uuid "a9b40ebf-d310-4910-a17b-2352abfaa528")
 	)
 	(wire
 		(pts
@@ -4529,13 +4285,13 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 147.32) (xy 318.77 157.48)
+			(xy 331.47 100.33) (xy 331.47 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af175fe8-8f01-4bed-8dca-628a8e7b333e")
+		(uuid "af57237f-be1f-4148-9524-d0c4869398e2")
 	)
 	(wire
 		(pts
@@ -4549,26 +4305,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 107.95) (xy 337.82 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b22914d9-0f72-48d1-b8b2-32ab245808e9")
-	)
-	(wire
-		(pts
-			(xy 318.77 113.03) (xy 318.77 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ab2395-d813-40cf-a381-24010ea2c889")
-	)
-	(wire
-		(pts
 			(xy 280.035 83.82) (xy 282.575 83.82)
 		)
 		(stroke
@@ -4576,6 +4312,16 @@
 			(type default)
 		)
 		(uuid "b4513bc9-99b3-4565-ae43-94908e591e0a")
+	)
+	(wire
+		(pts
+			(xy 365.76 132.08) (xy 369.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b555ee3e-748e-491d-9dc4-f78ef2e92798")
 	)
 	(wire
 		(pts
@@ -4609,26 +4355,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 100.33) (xy 337.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7591cd-d5e6-4d71-a7d6-be275ce84dfd")
-	)
-	(wire
-		(pts
-			(xy 308.61 160.02) (xy 318.77 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb7432b5-440e-42af-a173-7cbf82660dfe")
-	)
-	(wire
-		(pts
 			(xy 33.02 45.72) (xy 33.02 46.99)
 		)
 		(stroke
@@ -4639,13 +4365,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 147.32) (xy 337.82 147.32)
+			(xy 323.215 132.08) (xy 337.82 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc739c4c-6cbb-41c5-b9ba-b159dadd9970")
+		(uuid "bd4265e9-70d3-41ff-9578-ac8d5bb56788")
 	)
 	(wire
 		(pts
@@ -4666,16 +4392,6 @@
 			(type default)
 		)
 		(uuid "c389d45d-2838-48fd-9a19-b498d6a45c39")
-	)
-	(wire
-		(pts
-			(xy 332.74 102.87) (xy 337.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4ababf5-1bc4-425e-87a9-ece9b9b1a08f")
 	)
 	(wire
 		(pts
@@ -4739,23 +4455,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 73.66) (xy 180.34 73.66)
+			(xy 175.26 73.66) (xy 182.88 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d48378f3-ba34-48ca-b3df-ca4db50a2e28")
-	)
-	(wire
-		(pts
-			(xy 318.77 157.48) (xy 318.77 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4fb3117-cc3f-47b6-bc02-3d1fef6040d6")
+		(uuid "d829a429-d4f7-4b82-b4df-b7205c69cfbf")
 	)
 	(wire
 		(pts
@@ -4789,26 +4495,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 87.63) (xy 335.28 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0586c53-6eed-4e30-9f29-5f03dbb53d50")
-	)
-	(wire
-		(pts
-			(xy 335.28 134.62) (xy 335.28 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d6796e-df62-47e3-b4bb-a1eb48b3aea8")
-	)
-	(wire
-		(pts
 			(xy 250.19 97.155) (xy 247.65 97.155)
 		)
 		(stroke
@@ -4826,6 +4512,16 @@
 			(type default)
 		)
 		(uuid "e3563409-da91-4a80-816c-f291cd9eae72")
+	)
+	(wire
+		(pts
+			(xy 365.76 102.87) (xy 371.475 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3615e02-5fdb-4c4e-846b-77111237a820")
 	)
 	(wire
 		(pts
@@ -4849,6 +4545,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 83.82) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53c12d9-daf0-453b-9464-6f0c2a85f479")
+	)
+	(wire
+		(pts
 			(xy 30.48 153.67) (xy 30.48 156.21)
 		)
 		(stroke
@@ -4856,16 +4562,6 @@
 			(type default)
 		)
 		(uuid "e5e920b9-4764-437a-b2c1-50faa5f0098b")
-	)
-	(wire
-		(pts
-			(xy 308.61 121.92) (xy 318.77 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d2fc3d-1b8d-4f4a-817d-4caf233b7597")
 	)
 	(wire
 		(pts
@@ -4879,6 +4575,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 83.82) (xy 335.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3a1b33-fb69-4e86-9086-1e788ad105a1")
+	)
+	(wire
+		(pts
 			(xy 33.02 35.56) (xy 43.18 35.56)
 		)
 		(stroke
@@ -4886,6 +4592,16 @@
 			(type default)
 		)
 		(uuid "eb33e480-0817-4203-a18e-3290a161ac86")
+	)
+	(wire
+		(pts
+			(xy 369.57 97.79) (xy 365.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb63621a-9304-49c2-af11-445817615452")
 	)
 	(wire
 		(pts
@@ -4919,6 +4635,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 127) (xy 335.28 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f347cfff-ab12-48a6-89e0-46df61e844fb")
+	)
+	(wire
+		(pts
 			(xy 359.41 40.64) (xy 359.41 45.72)
 		)
 		(stroke
@@ -4929,26 +4655,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 113.03) (xy 318.77 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a8ef45-8c3e-47e6-bf6b-4c590140ebde")
-	)
-	(wire
-		(pts
-			(xy 335.28 137.16) (xy 337.82 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f50fe3e1-41fe-4e3e-a1d4-441df25f87d2")
-	)
-	(wire
-		(pts
 			(xy 359.41 38.1) (xy 359.41 35.56)
 		)
 		(stroke
@@ -4956,26 +4662,6 @@
 			(type default)
 		)
 		(uuid "f5adfb21-7bf7-497d-811b-41651db3a713")
-	)
-	(wire
-		(pts
-			(xy 175.26 78.74) (xy 180.34 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6075dd8-6faf-4cd4-8144-ed30ba27704b")
-	)
-	(wire
-		(pts
-			(xy 322.58 157.48) (xy 318.77 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6669830-1d32-4395-85d4-c2d4d729fab7")
 	)
 	(wire
 		(pts
@@ -5006,16 +4692,6 @@
 			(type default)
 		)
 		(uuid "fb89e538-2f20-44c1-9e5b-201385202911")
-	)
-	(wire
-		(pts
-			(xy 373.38 100.33) (xy 378.46 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc36a0db-f569-4fb9-8622-bdc00d361d37")
 	)
 	(wire
 		(pts
@@ -5320,6 +4996,28 @@
 			)
 		)
 	)
+	(global_label "MDC2_2"
+		(shape input)
+		(at 371.475 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d2eca7b-f983-4624-8b3c-48e4cf78def1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.8382 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PS3"
 		(shape input)
 		(at 146.05 63.5 180)
@@ -5338,6 +5036,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MDC1_2"
+		(shape input)
+		(at 371.475 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37cd5273-26ff-45cb-b74e-26ca23df34bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.8382 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5386,7 +5106,7 @@
 			)
 		)
 	)
-	(global_label "MDC1_2"
+	(global_label "MDC1_1"
 		(shape input)
 		(at 146.05 68.58 180)
 		(fields_autoplaced yes)
@@ -5408,31 +5128,9 @@
 			)
 		)
 	)
-	(global_label "MDC1_2"
-		(shape input)
-		(at 378.46 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c79e2b0-ed63-4242-8cb0-2971eb15c106")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.8232 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIST_R_INT"
 		(shape input)
-		(at 180.34 73.66 0)
+		(at 182.88 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5442,7 +5140,7 @@
 		)
 		(uuid "4e45b3d6-f8f9-4bb0-9498-958362cc00a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.4852 73.66 0)
+			(at 196.0252 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5152,7 @@
 	)
 	(global_label "DIST_L_INT"
 		(shape input)
-		(at 180.34 83.82 0)
+		(at 182.88 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5464,7 +5162,7 @@
 		)
 		(uuid "590da6b1-fb70-4fc0-928b-442e6fd0228f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.2433 83.82 0)
+			(at 195.7833 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5174,7 @@
 	)
 	(global_label "DIST_LM_INT"
 		(shape input)
-		(at 180.34 81.28 0)
+		(at 182.88 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5486,7 +5184,7 @@
 		)
 		(uuid "5f8003c1-1733-4cb9-a6eb-673beb1f1cf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.6947 81.28 0)
+			(at 197.2347 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5260,7 @@
 			)
 		)
 	)
-	(global_label "MDC2_1"
+	(global_label "MDC2_2"
 		(shape input)
 		(at 146.05 76.2 180)
 		(fields_autoplaced yes)
@@ -5628,6 +5326,28 @@
 			)
 		)
 	)
+	(global_label "MDC1_1"
+		(shape input)
+		(at 371.475 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86fbeb9a-703c-4343-8a9b-2beaf39ebeea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.8382 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIST_C_INT"
 		(shape input)
 		(at 265.43 97.155 0)
@@ -5652,7 +5372,7 @@
 	)
 	(global_label "LF_INT"
 		(shape input)
-		(at 180.34 86.36 0)
+		(at 182.88 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5662,7 +5382,7 @@
 		)
 		(uuid "9df36c03-977c-4d26-8482-48dc447f3ce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.3124 86.36 0)
+			(at 191.8524 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5394,7 @@
 	)
 	(global_label "DIST_RM_INT"
 		(shape input)
-		(at 180.34 76.2 0)
+		(at 182.88 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5684,29 +5404,7 @@
 		)
 		(uuid "b3145d22-916d-43fe-a30d-b9797e179bca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.9366 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MDC2_2"
-		(shape input)
-		(at 378.46 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b31f91e2-a366-4aae-b6fe-e59b6217457d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.8232 144.78 0)
+			(at 197.4766 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5416,7 @@
 	)
 	(global_label "MDC2_1"
 		(shape input)
-		(at 378.46 147.32 0)
+		(at 371.475 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5726,9 +5424,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c0447ee6-efa1-42e8-996b-211748e4750f")
+		(uuid "bb20e81f-ebbe-47f0-8dfa-fef0f8e8e082")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.8232 147.32 0)
+			(at 381.8382 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5460,7 @@
 	)
 	(global_label "RF_INT"
 		(shape input)
-		(at 180.34 71.12 0)
+		(at 182.88 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5772,7 +5470,7 @@
 		)
 		(uuid "ca4d7ce9-908d-4cbf-9fac-29c4f4243164")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.5543 71.12 0)
+			(at 192.0943 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5502,7 @@
 			)
 		)
 	)
-	(global_label "MDC2_2"
+	(global_label "MDC2_1"
 		(shape input)
 		(at 146.05 78.74 180)
 		(fields_autoplaced yes)
@@ -5848,7 +5546,7 @@
 			)
 		)
 	)
-	(global_label "MDC1_1"
+	(global_label "MDC1_2"
 		(shape input)
 		(at 146.05 66.04 180)
 		(fields_autoplaced yes)
@@ -5916,7 +5614,7 @@
 	)
 	(global_label "DIST_C_INT"
 		(shape input)
-		(at 180.34 78.74 0)
+		(at 182.88 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5926,7 +5624,7 @@
 		)
 		(uuid "f650e787-b716-44bb-bd40-53a65558201c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.4852 78.74 0)
+			(at 196.0252 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,28 +5647,6 @@
 		(uuid "fc210680-63c5-45e7-abc8-e9258a2f4c55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.5252 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MDC1_1"
-		(shape input)
-		(at 378.46 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff513988-e4e9-4eb0-aff6-c297161ba776")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.8232 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,6 +5723,74 @@
 			(project "RatatoulliBoard"
 				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 318.135 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00ed9288-fea9-4140-9769-abbb8b66ea38")
+		(property "Reference" "J13"
+			(at 318.135 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BDC2"
+			(at 318.135 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 318.135 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.135 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.135 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13a0ef66-4778-4884-bc58-2dd6db486976")
+		)
+		(pin "2"
+			(uuid "4f7fe3dc-060c-4492-8b9c-120762a3a056")
+		)
+		(instances
+			(project "luytenPCB"
+				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -6340,80 +6084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 327.66 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0efc3fb3-e610-4de8-b243-97f031bc8f6d")
-		(property "Reference" "J3"
-			(at 327.66 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BDC2"
-			(at 327.66 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 327.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04d4b52a-f83b-420e-b97c-84f54affd92f")
-		)
-		(pin "2"
-			(uuid "464f2040-4c95-4547-b100-c3fcf531b8e7")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x03")
 		(at 41.91 156.21 0)
 		(unit 1)
@@ -6499,73 +6169,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 326.39 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1934a472-c11b-45bd-beaa-e3ea26736a07")
-		(property "Reference" "R3"
-			(at 326.39 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 326.39 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 326.644 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 326.39 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65681b85-f24c-43e8-877e-0efd2ca76aac")
-		)
-		(pin "2"
-			(uuid "706e0cab-5922-464c-8f40-4433c5be7cc8")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 359.41 35.56 0)
 		(unit 1)
@@ -6633,78 +6236,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 375.92 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "240c4e26-2fba-45ca-9293-9c199a2b88b1")
-		(property "Reference" "#PWR016"
-			(at 375.92 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 375.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "310940c8-d9d5-4922-b4b1-a02ad91b9731")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 22.86 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6764,6 +6295,72 @@
 			(project "luytenPCB"
 				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 369.57 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2920599c-5b22-4023-b29e-f415e877d7ec")
+		(property "Reference" "#PWR042"
+			(at 369.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbd5311a-053d-4856-86ca-48fa1410826d")
+		)
+		(instances
+			(project "luytenPCB"
+				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7341,43 +6938,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DRV8871DDAR:DRV8871DDAR")
-		(at 355.6 144.78 180)
+		(lib_id "power:GND")
+		(at 335.28 109.855 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4674487e-32de-419d-a413-90b68b6effe4")
-		(property "Reference" "IC2"
-			(at 355.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DRV8212DRLR"
-			(at 355.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DRV8871DDAR:VREG_LM5017MR_NOPB"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8212.pdf?ts=1631761675954&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDRV8212DRLR%2526keyMatch%253DDRV8212DRLR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
-			(at 355.6 144.78 0)
+		(uuid "443769ab-596b-4519-a56e-2b440d8ef981")
+		(property "Reference" "#PWR037"
+			(at 335.28 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,203 +6956,48 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n50-V, 3.6-A H-bridge motor driver with integrated current sensing\n"
-			(at 355.6 144.78 0)
+		(property "Value" "GND"
+			(at 335.28 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Height" "0.6"
-			(at 331.47 139.7 0)
+		(property "Datasheet" ""
+			(at 335.28 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 331.47 137.16 0)
+		(property "Description" ""
+			(at 335.28 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DRV8212DRLR"
-			(at 331.47 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-DRV8212DRLR"
-			(at 331.47 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8212DRLR?qs=7D1LtPJG0i3wtDTC%2FUQdKg%3D%3D"
-			(at 331.47 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 331.47 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 331.47 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "HSOIC-8 Texas Instruments"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8871DDAR/Texas+Instruments/view-part/?ref=snap"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "DRV8871DDAR"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=492651&manufacturer=Texas Instruments&part_name=DRV8871DDAR&search_term=None"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DRV8871DDAR/Texas+Instruments/view-part/?ref=eda"
-			(at 355.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "1b665a4c-1783-4a4a-a6b3-3cd663cec3eb")
-		)
-		(pin "2"
-			(uuid "72d44759-32a6-4dca-880b-c00fded27a63")
-		)
-		(pin "3"
-			(uuid "50a91ea8-b73d-4ba2-9e50-89ada85846c1")
-		)
-		(pin "4"
-			(uuid "3e008439-d3c1-4f2d-9342-5f363498dfa4")
-		)
-		(pin "5"
-			(uuid "2718176a-99d3-4f33-a668-276db291e747")
-		)
-		(pin "6"
-			(uuid "96befda6-d1ce-4746-8f0e-c80eec1d9a3d")
-		)
-		(pin "9"
-			(uuid "c0f70723-19ee-41a9-8f5a-fc5afe34392d")
-		)
-		(pin "8"
-			(uuid "38a3d997-5606-4889-ae9e-7018d3106ab6")
-		)
-		(pin "7"
-			(uuid "707ee45c-61c9-478c-adc5-f0d3e77d19fd")
+			(uuid "7bb67b55-546a-4198-8b4a-4b6b74c6a9af")
 		)
 		(instances
 			(project "luytenPCB"
 				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "IC3")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7652,78 +7068,6 @@
 			(project "luytenPCB"
 				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 318.77 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4be8a47d-0aa8-4007-91cd-9ce48386e9d4")
-		(property "Reference" "#PWR012"
-			(at 318.77 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 318.77 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6af88afb-a38d-4359-90fe-2781c9a175cc")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -7854,6 +7198,159 @@
 			(project "luytenPCB"
 				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DRV8212DRLR:DRV8212DRLR")
+		(at 365.76 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f2dbc84-c32a-49ed-9dde-a075235b2ff8")
+		(property "Reference" "IC4"
+			(at 351.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8212DRLR"
+			(at 351.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(at 341.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8212.pdf?ts=1631761675954&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDRV8212DRLR%2526keyMatch%253DDRV8212DRLR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
+			(at 341.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 12-V, 2-A Low voltage H-bridge motor driver"
+			(at 341.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at 341.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 341.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DRV8212DRLR"
+			(at 341.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-DRV8212DRLR"
+			(at 341.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8212DRLR?qs=7D1LtPJG0i3wtDTC%2FUQdKg%3D%3D"
+			(at 341.63 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 341.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 341.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ffa3138-0b19-409a-959a-ba4c06b013d7")
+		)
+		(pin "2"
+			(uuid "2f3b31d5-64c5-459e-b315-d2828718065d")
+		)
+		(pin "3"
+			(uuid "84d01315-f3c4-4c3f-aa7b-1539b121b6e1")
+		)
+		(pin "4"
+			(uuid "52a60793-e9a1-4239-9fb8-5c48943a39aa")
+		)
+		(pin "5"
+			(uuid "86a1c356-1a92-40bb-acc2-5c249de68293")
+		)
+		(pin "6"
+			(uuid "96a3d9a7-345b-456d-bc14-32e54df9a98d")
+		)
+		(instances
+			(project "luytenPCB"
+				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -8005,17 +7502,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 318.77 147.32 0)
+		(lib_id "Device:C_Small")
+		(at 335.28 107.315 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5249e83d-f1e5-43cf-807b-693491789a55")
-		(property "Reference" "#PWR013"
-			(at 318.77 151.13 0)
+		(uuid "5144b327-05e7-4fab-b744-2b8b6cafe208")
+		(property "Reference" "C11"
+			(at 338.455 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 338.455 108.5912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 335.28 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,25 +7537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 318.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 147.32 0)
+		(property "Datasheet" "~"
+			(at 335.28 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +7547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 318.77 147.32 0)
+			(at 335.28 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,162 +7556,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0fcceb6-8542-42de-a55a-d79aa5cfcd94")
+			(uuid "482c25e1-cba3-4c6d-8975-aff4f26154ed")
+		)
+		(pin "2"
+			(uuid "0aff6959-23b5-483f-8889-470d5352e6e2")
 		)
 		(instances
 			(project "luytenPCB"
 				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 318.77 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54862cc1-7ade-45ec-aa59-09a549c4a9ec")
-		(property "Reference" "#PWR014"
-			(at 318.77 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 318.77 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae8a2a6f-72e9-4496-80ba-7e9af15d1b3c")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 318.77 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54ea4c8c-e8a5-46b0-9a95-dacae7f37316")
-		(property "Reference" "#PWR011"
-			(at 318.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 318.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f8b5f0f-5bcd-4afe-87e8-773b6a1408c6")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "#PWR0125")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8365,328 +7715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 308.61 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c795f22-714a-4d60-a1f5-cce1abc3ce45")
-		(property "Reference" "C9"
-			(at 311.785 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 311.785 119.3862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 308.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 308.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 308.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60c43d6e-95d4-4a55-be83-8cd54388a755")
-		)
-		(pin "2"
-			(uuid "bc876713-6cef-4b66-bb2b-57884c109cbe")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DRV8871DDAR:DRV8871DDAR")
-		(at 355.6 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fc6796f-d540-43c3-a3f8-8b2f3226787e")
-		(property "Reference" "IC1"
-			(at 355.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DRV8212DRLR"
-			(at 355.6 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DRV8871DDAR:VREG_LM5017MR_NOPB"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8212.pdf?ts=1631761675954&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDRV8212DRLR%2526keyMatch%253DDRV8212DRLR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "\n50-V, 3.6-A H-bridge motor driver with integrated current sensing\n"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6"
-			(at 331.47 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 331.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DRV8212DRLR"
-			(at 331.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-DRV8212DRLR"
-			(at 331.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8212DRLR?qs=7D1LtPJG0i3wtDTC%2FUQdKg%3D%3D"
-			(at 331.47 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 331.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 331.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "HSOIC-8 Texas Instruments"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8871DDAR/Texas+Instruments/view-part/?ref=snap"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "DRV8871DDAR"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=492651&manufacturer=Texas Instruments&part_name=DRV8871DDAR&search_term=None"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DRV8871DDAR/Texas+Instruments/view-part/?ref=eda"
-			(at 355.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d637c771-f293-4e59-8d10-71a6d0823ba3")
-		)
-		(pin "2"
-			(uuid "14bb6ec3-7cfb-45de-af9c-fee2830d436e")
-		)
-		(pin "3"
-			(uuid "1d58862d-a502-4021-98d0-ac6916fc0c1b")
-		)
-		(pin "4"
-			(uuid "ce9420fd-407f-446d-bd0e-40a42ce90486")
-		)
-		(pin "5"
-			(uuid "5ea43a1e-80cc-49ca-b6b6-e389e639f12c")
-		)
-		(pin "6"
-			(uuid "95a9f4c0-a5c0-4438-896c-46bfb7324eb6")
-		)
-		(pin "7"
-			(uuid "481d9873-20ba-4b7d-bc09-1aa5cb087b4f")
-		)
-		(pin "8"
-			(uuid "37c23fa2-7ae1-4636-91f1-77da949f976c")
-		)
-		(pin "9"
-			(uuid "698e3aff-efeb-47c2-ae1e-33f2a6a5e070")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 112.395 0)
 		(unit 1)
@@ -8753,6 +7781,74 @@
 			(project "RatatoulliBoard"
 				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
 					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 317.5 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62c0dcf6-d543-4802-9bb6-a933938272f8")
+		(property "Reference" "J12"
+			(at 317.5 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BDC1"
+			(at 317.5 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 317.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc680612-6bd0-4130-8689-6661bc3188a8")
+		)
+		(pin "2"
+			(uuid "77b394d6-03c3-4d21-b993-18d37779a066")
+		)
+		(instances
+			(project "luytenPCB"
+				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8968,6 +8064,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 335.28 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "729abd13-472a-4cb2-84f9-929f0f6871c3")
+		(property "Reference" "#PWR039"
+			(at 335.28 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "645dc669-f0ed-4246-b6f5-ee826489eba9")
+		)
+		(instances
+			(project "luytenPCB"
+				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 228.6 107.315 0)
 		(unit 1)
@@ -9040,71 +8202,153 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 335.28 114.3 0)
+		(lib_id "DRV8212DRLR:DRV8212DRLR")
+		(at 365.76 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7c1b712f-bf4c-4dd1-9384-700667faa09b")
-		(property "Reference" "#PWR043"
-			(at 335.28 120.65 0)
+		(fields_autoplaced yes)
+		(uuid "823aecb3-cb8c-42ff-b133-e011243bde17")
+		(property "Reference" "IC3"
+			(at 351.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value" "DRV8212DRLR"
+			(at 351.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(at 341.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 335.28 119.38 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8212.pdf?ts=1631761675954&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDRV8212DRLR%2526keyMatch%253DDRV8212DRLR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
+			(at 341.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 335.28 114.3 0)
+		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 12-V, 2-A Low voltage H-bridge motor driver"
+			(at 341.63 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 335.28 114.3 0)
+		(property "Height" "0.6"
+			(at 341.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 341.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DRV8212DRLR"
+			(at 341.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-DRV8212DRLR"
+			(at 341.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8212DRLR?qs=7D1LtPJG0i3wtDTC%2FUQdKg%3D%3D"
+			(at 341.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 341.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 341.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "8c314160-482b-4bd0-94ef-fff2a2c38a77")
+			(uuid "21d54099-2e0a-44f1-a99f-6427d7d1e3a2")
+		)
+		(pin "2"
+			(uuid "42f11c3a-6fc4-48e7-91b8-87122d2a4540")
+		)
+		(pin "3"
+			(uuid "c5f6ecc6-29b4-4728-ae8c-2e471ab9c89a")
+		)
+		(pin "4"
+			(uuid "3f5aaa8e-88d2-4e29-a910-ef006b16e343")
+		)
+		(pin "5"
+			(uuid "1cceca9f-ef06-49b8-ae2f-391969e28457")
+		)
+		(pin "6"
+			(uuid "6d8e21fe-fb27-4944-b8ce-bf3540ddc9b2")
 		)
 		(instances
 			(project "luytenPCB"
 				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "#PWR0126")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -9260,149 +8504,6 @@
 			(project "luytenPCB"
 				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
 					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 326.39 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "842200e5-3b0c-492c-a90b-ecbbf3e7f410")
-		(property "Reference" "R4"
-			(at 326.39 159.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 326.39 162.306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 326.644 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 326.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23b5cc6d-0c10-40c9-9592-5f660e0c9b73")
-		)
-		(pin "2"
-			(uuid "be02f737-02e3-40c0-8234-91c4c4ee878e")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 375.92 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "879aa5c9-62ae-4f32-a8b8-0966ef69738a")
-		(property "Reference" "R8"
-			(at 378.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30k"
-			(at 378.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 376.936 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 375.92 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e8a7ccd-dd03-4876-bf43-a24311c567ab")
-		)
-		(pin "2"
-			(uuid "4fc3ae15-0e68-4cc7-90af-b7468b4112b6")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10250,81 +9351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 308.61 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8e3c139-edcc-48e9-9001-c40ad3d5134c")
-		(property "Reference" "C10"
-			(at 311.785 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 311.785 166.3762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 308.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 308.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 308.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8decb24d-b3bb-4f14-97dc-e4aa31d12b21")
-		)
-		(pin "2"
-			(uuid "9af83e0f-1892-4ce8-a33d-8e97e26cadad")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 73.66 41.91 0)
 		(unit 1)
@@ -10465,6 +9491,72 @@
 			(project "RatatoulliBoard"
 				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 335.28 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae87a2e6-5066-4d3e-8c31-a47bdfe3807d")
+		(property "Reference" "#PWR036"
+			(at 335.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 335.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6daa719-2ea8-45c8-ae79-ff7a922c7c9d")
+		)
+		(instances
+			(project "luytenPCB"
+				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10694,6 +9786,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 369.57 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdc06ce6-f807-45eb-86ee-3421ad40311d")
+		(property "Reference" "#PWR045"
+			(at 369.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a301b1-b0b5-4a45-8d2b-8745d1ee9f1a")
+		)
+		(instances
+			(project "luytenPCB"
+				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 264.795 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10914,16 +10072,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 335.28 161.29 0)
+		(lib_id "Device:R_US")
+		(at 335.28 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c8f4f05a-bb9b-4e20-bf26-812b75ec258f")
-		(property "Reference" "#PWR044"
-			(at 335.28 167.64 0)
+		(fields_autoplaced yes)
+		(uuid "c1019f4e-09c4-4f3f-874f-201f817ef17e")
+		(property "Reference" "R3"
+			(at 337.82 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 337.82 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+			(at 336.296 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,16 +10108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 335.28 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 161.29 0)
+		(property "Datasheet" "~"
+			(at 335.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10948,17 +10117,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 335.28 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 161.29 0)
+		(property "Description" "Resistor, US symbol"
+			(at 335.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,18 +10127,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "20933f28-58d2-42e4-b7cf-8e07b50426d2")
+			(uuid "9a6b7d51-4819-4282-ac7a-957c3b5156e2")
+		)
+		(pin "2"
+			(uuid "5310b274-59ef-4a80-99d8-188da0a457f6")
 		)
 		(instances
-			(project "luytenPCB"
+			(project ""
 				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "#PWR0126")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11273,80 +10430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 327.66 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd490c72-2b76-470e-ba34-9f0ec702d09f")
-		(property "Reference" "J2"
-			(at 327.66 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BDC1"
-			(at 327.66 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 327.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd2a5f0e-9b38-4ef6-aae6-234103c5e4a7")
-		)
-		(pin "2"
-			(uuid "1f6d71e7-fcb8-44e3-9527-5823487d39cd")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 81.28 0)
 		(unit 1)
@@ -11413,6 +10496,76 @@
 			(project "RatatoulliBoard"
 				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 335.28 142.875 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0779586-9c14-48d2-b6f8-9faad35907b6")
+		(property "Reference" "C12"
+			(at 337.82 141.6112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 337.82 144.1512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 335.28 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654797af-2d6e-4618-9b86-360f6c6b176f")
+		)
+		(pin "2"
+			(uuid "e5a49cd7-364e-448c-bf0e-4332c829d014")
+		)
+		(instances
+			(project "luytenPCB"
+				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11489,81 +10642,6 @@
 			(project "RatatoulliBoard"
 				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 318.77 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e54122c3-9531-45f6-9f9a-394d3cf99d4d")
-		(property "Reference" "C8"
-			(at 321.945 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 321.945 166.3762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 318.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86d81167-627f-4314-b6e7-1a0d6e4c0846")
-		)
-		(pin "2"
-			(uuid "47710f82-90b5-45c9-a224-6618d7b06901")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11936,152 +11014,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 375.92 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f23bc74d-bbb6-4474-9ce7-9179de4b8478")
-		(property "Reference" "#PWR015"
-			(at 375.92 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 375.92 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0c30b7e-324c-4500-912d-237c266c01f8")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 318.77 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3c2103c-c7ec-491c-a38c-fbeba7aae16d")
-		(property "Reference" "C7"
-			(at 321.945 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 321.945 119.3862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 318.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8979d83a-db86-411e-9ed0-ce158c8c1504")
-		)
-		(pin "2"
-			(uuid "e07b1b1d-944c-4a54-b3f6-2ed25aaba2a4")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Conn_02x02_Odd_Even_2")
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
 		(at 272.415 110.49 0)
@@ -12154,82 +11086,6 @@
 			(project "RatatoulliBoard"
 				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 375.92 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9dbc59f-2501-4c98-bfd9-fbec52db9253")
-		(property "Reference" "R9"
-			(at 378.46 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30k"
-			(at 378.46 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 376.936 155.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 375.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8ec492f-8624-4222-b77f-e3aa61020770")
-		)
-		(pin "2"
-			(uuid "62b61489-9d08-4207-b89c-6d49f6f79b10")
-		)
-		(instances
-			(project "luytenPCB"
-				(path "/62d05963-143a-48fd-a8ce-75709a63613b"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "RatatoulliBoard"
-				(path "/79ae86f3-1a6f-4961-9c88-c9330cfc06b8"
-					(reference "R7")
 					(unit 1)
 				)
 			)
