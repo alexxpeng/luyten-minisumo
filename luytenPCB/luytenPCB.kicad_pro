@@ -468,7 +468,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+<<<<<<< Updated upstream
       "plot": "gerbers/",
+=======
+      "plot": "",
+>>>>>>> Stashed changes
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

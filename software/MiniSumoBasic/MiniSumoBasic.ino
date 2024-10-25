@@ -1,6 +1,7 @@
 /*Alex Peng
  * MiniSumo Program or something
  */
+#include <Arduino.h>
 //--------PARAMETERS---------------
 #define LINETHRESHOLD 100 //threshold for line sensor analog read
 //--------PIN DEFINITIONS----------
@@ -9,10 +10,10 @@
 #define LEFTLINEPIN    26
 #define RIGHTLINEPIN   20
 
-#define LEFTMOTORPIN1  8
-#define LEFTMOTORPIN2  9
-#define RIGHTMOTORPIN1 12
-#define RIGHTMOTORPIN2 13
+#define LEFTMOTORPIN1  5
+#define LEFTMOTORPIN2  6
+#define RIGHTMOTORPIN1 9
+#define RIGHTMOTORPIN2 10
 
 #define DISTSENSORL    25
 #define DISTSENSORLM   24
@@ -174,10 +175,10 @@ void loop() {
     }
     */
     //if (startModule){
-        analogWrite(13, 120);
-        analogWrite(12, 0);
+        analogWrite(5, 120);
+        analogWrite(6, 0);
         analogWrite(9, 120);
-        analogWrite(8, 0);
+        analogWrite(10, 0);
       /*
               if (distSensorLM) {
                   forward();
